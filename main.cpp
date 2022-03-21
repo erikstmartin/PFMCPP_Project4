@@ -223,7 +223,8 @@ private:
     IntType& powInternal(const int rhs);
 };
 
-FloatType& FloatType::operator+=(float rhs) { 
+FloatType& FloatType::operator+=(float rhs) 
+{ 
     *value += rhs;
     return *this;
 }
